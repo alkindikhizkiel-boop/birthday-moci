@@ -14,18 +14,18 @@
     body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.15;z-index:5;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.18'/%3E%3C/svg%3E")}
     a{color:inherit}.wrap{width:min(1060px,92%);margin:auto}.topbar{display:flex;justify-content:space-between;align-items:center;padding:22px 0;font-family:'Caveat',cursive;font-size:23px}.topbar span:last-child{font-family:'DM Sans';font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
     .hero{min-height:610px;display:grid;place-items:center;text-align:center;padding:60px 15px 85px;position:relative;overflow:hidden}
-    .hero:before,.hero:after{content:"✿";position:absolute;color:#c58d83;opacity:.35;font-size:90px}.hero:before{left:7%;top:15%;transform:rotate(-18deg)}.hero:after{right:8%;bottom:14%;font-size:115px;transform:rotate(20deg)}
+    .hero:before,.hero:after{content:"🍰";position:absolute;color:#c58d83;opacity:.35;font-size:75px}.hero:before{left:7%;top:15%;transform:rotate(-18deg)}.hero:after{right:8%;bottom:14%;font-size:115px;transform:rotate(20deg)}
     .eyebrow{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--rust)}h1,h2,h3{font-family:'Playfair Display',serif;font-weight:500}h1{font-size:clamp(46px,8vw,88px);line-height:1.05;margin:18px 0 10px}h1 em{color:var(--rust)}.hero p{max-width:490px;margin:16px auto;color:var(--muted);line-height:1.8}.date{font-family:'Caveat';font-size:25px;color:var(--rust);margin:20px 0}
     .btn{border:1px solid var(--rust);background:var(--rust);color:#fff8ef;padding:13px 23px;border-radius:3px;text-decoration:none;display:inline-flex;align-items:center;gap:10px;cursor:pointer;font:600 13px 'DM Sans';letter-spacing:.4px;transition:.2s}.btn:hover{transform:translateY(-2px);background:#8e4c39}.btn.outline{background:transparent;color:var(--rust)}.small-note{font-size:11px;color:var(--muted);margin-top:12px}
     section{padding:75px 0}.section-head{text-align:center;margin-bottom:38px}.section-head .eyebrow{margin-bottom:10px}.section-head h2{font-size:clamp(32px,5vw,48px);margin:0}.section-head p{color:var(--muted);font-size:14px}
-    .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:25px;align-items:start}.polaroid{background:#fffdf8;padding:11px 11px 18px;box-shadow:0 7px 22px #5b49321c;transform:rotate(var(--rot));transition:.25s}.polaroid:hover{transform:rotate(0) translateY(-5px)}.photo{height:245px;background:linear-gradient(135deg,#e8d7c2,#c9a995);display:grid;place-items:center;overflow:hidden;color:#fff}.photo img{width:100%;height:100%;object-fit:cover;display:block}.photo .placeholder{font-family:'Caveat';font-size:22px;color:#fffaf2;text-shadow:0 1px 4px #665}.caption{font-family:'Caveat';font-size:22px;text-align:center;margin-top:12px;color:#756354}
+    .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:25px;align-items:start}.polaroid{background:#fffdf8;padding:11px 11px 18px;box-shadow:0 7px 22px #5b49321c;transform:rotate(var(--rot));transition:.25s}.polaroid:hover{transform:rotate(0) translateY(-5px)}.photo{height:245px;background:#eee5d8;display:grid;place-items:center;overflow:hidden;color:#fff}.photo img{width:100%;height:100%;object-fit:contain;object-position:center center;display:block}.photo .placeholder{font-family:'Caveat';font-size:22px;color:#fffaf2;text-shadow:0 1px 4px #665}.caption{font-family:'Caveat';font-size:22px;text-align:center;margin-top:12px;color:#756354}
     .letter-card{max-width:760px;margin:auto;background:#fffaf2;border:1px solid var(--line);padding:clamp(25px,6vw,58px);box-shadow:0 12px 35px #5b493215;position:relative}.letter-card:before{content:"";position:absolute;inset:9px;border:1px dashed #d8c5ad;pointer-events:none}.letter-top{font-family:'Caveat';font-size:25px;color:var(--rust)}.letter-card p{position:relative;line-height:1.95;font-size:15px;color:#625447}.letter-card .sign{font-family:'Caveat';font-size:28px;color:var(--rust);text-align:right;margin-top:25px}
     .music-box{max-width:620px;margin:auto;background:#eee1d0;border:1px solid var(--line);padding:28px;display:flex;gap:20px;align-items:center}.record{width:100px;height:100px;border-radius:50%;flex:none;background:repeating-radial-gradient(circle,#342d29 0 2px,#4a4039 3px 5px);display:grid;place-items:center;animation:spin 7s linear infinite;animation-play-state:paused}.record.playing{animation-play-state:running}.record:after{content:"♡";display:grid;place-items:center;width:32px;height:32px;border-radius:50%;background:#c58d83;color:#fff;font-size:18px}@keyframes spin{to{transform:rotate(360deg)}}.music-info{flex:1}.music-info strong{font-family:'Playfair Display';font-size:22px;font-weight:500}.music-info p{font-size:12px;color:var(--muted);margin:5px 0 14px}.music-controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.music-controls .btn{padding:10px 15px}
     .gift-area{text-align:center}.gift-emoji{font-size:82px;filter:drop-shadow(0 9px 8px #8c6d4a30);animation:bob 2s ease-in-out infinite}@keyframes bob{50%{transform:translateY(-8px)}}.gift-area p{color:var(--muted);font-size:14px;max-width:450px;margin:10px auto 23px}
     footer{text-align:center;padding:35px 10px 55px;color:var(--muted);font-family:'Caveat';font-size:22px}
     .modal{display:none;position:fixed;inset:0;background:#2e251fba;z-index:20;place-items:center;padding:20px}.modal.show{display:grid}.modal-card{background:var(--paper);max-width:420px;width:100%;padding:28px;text-align:center;position:relative;border:1px solid var(--line);box-shadow:0 20px 60px #0004}.close{position:absolute;right:12px;top:8px;border:0;background:none;font-size:25px;color:var(--muted);cursor:pointer}.modal-card h3{font-size:29px;margin:8px}.modal-card p{font-size:13px;color:var(--muted);line-height:1.6}.qr-wrap{background:#fff;padding:14px;display:inline-block;margin:12px auto}.qr-wrap img,.qr-wrap canvas{display:block;max-width:100%;height:auto}.qr-error{font-size:12px;color:var(--rust)}
     @media(max-width:700px){.gallery{grid-template-columns:repeat(2,1fr);gap:16px}.photo{height:190px}.music-box{align-items:flex-start;padding:20px}.record{width:76px;height:76px}.hero{min-height:550px}.hero:before{left:0}.hero:after{right:0}}
-    @media(max-width:430px){.gallery{grid-template-columns:1fr 1fr}.photo{height:155px}.polaroid{padding:8px 8px 13px}.caption{font-size:18px}.music-box{display:block;text-align:center}.record{margin:0 auto 18px}.music-controls{justify-content:center}}
+    @media(max-width:430px){.gallery{grid-template-columns:1fr 1fr}.photo{height:155px}.photo img{object-fit:contain}.polaroid{padding:8px 8px 13px}.caption{font-size:18px}.music-box{display:block;text-align:center}.record{margin:0 auto 18px}.music-controls{justify-content:center}}
   </style>
 </head>
 <body>
@@ -34,37 +34,37 @@
     <section class="hero">
       <div>
         <div class="eyebrow">A tiny website, made with a lot of love</div>
-        <h1>Happy Birthday,<br><em>My Moci.</em></h1>
-        <div class="date">20 November 2026 ✿ turning 28</div>
-        <p>Untuk sayangnya aku yang paling cumil. Hari ini halaman kecil ini khusus dibuat untuk kamu. Jadi, silakan duduk manis dan nikmati kejutan kecil dari manusia yang agak bulat ini. ♡</p>
-        <a class="btn" href="#memories">Mulai lihat kejutan <span>↓</span></a>
-        <div class="small-note">psst... scroll pelan-pelan ya, ada hadiah di akhir ♡</div>
+        <h1>Happy Birthday,<br><em>My Unyil Moci.</em></h1>
+        <div class="date">20 November 2026 😘 turning 28</div>
+        <p>Untuk sayangnya aku yang paling cumil. Hari ini halaman kecil ini khusus dibikin buat kamu birthday girl. Jadi, ambil posisi duduk yang manis dan selamat scrolling Seng song. ♡</p>
+        <a class="btn" href="#memories">Meluncur<span>↓</span></a>
+        <div class="small-note">xixixi.. scroll pelan-pelan ya, ada hadiah di akhir ♡</div>
       </div>
     </section>
 
     <section id="memories">
       <div class="wrap">
-        <div class="section-head"><div class="eyebrow">little moments, big feelings</div><h2>Our favorite little gallery</h2><p>Beberapa potongan cerita tentang perempuan kesayangan aku.</p></div>
+        <div class="section-head"><div class="eyebrow">little moments, big feelings</div><h2>Our favorite little gallery</h2><p>Ini foto-foto kerandoman kamu unyoll dari setiap bulan, jangan protes salah sendiri aku foto ga ngegaya.</p></div>
         <div class="gallery">
-          <div class="polaroid" style="--rot:-2deg"><div class="photo"><img src="assets/moci-1.jpg" alt="Foto Moci 1" loading="lazy"></div><div class="caption">my favorite smile</div></div>
-          <div class="polaroid" style="--rot:1.5deg"><div class="photo"><img src="assets/moci-2.jpg" alt="Foto Moci 2" loading="lazy"></div><div class="caption">a little sunshine</div></div>
-          <div class="polaroid" style="--rot:-1deg"><div class="photo"><img src="assets/moci-3.jpg" alt="Foto Moci 3" loading="lazy"></div><div class="caption">pretty moments</div></div>
-          <div class="polaroid" style="--rot:2deg"><div class="photo"><img src="assets/moci-4.jpg" alt="Foto Moci 4" loading="lazy"></div><div class="caption">the world looks softer</div></div>
-          <div class="polaroid" style="--rot:-1.5deg"><div class="photo"><img src="assets/moci-5.jpg" alt="Foto Moci 5" loading="lazy"></div><div class="caption">little adventure</div></div>
-          <div class="polaroid" style="--rot:1deg"><div class="photo"><img src="assets/moci-6.jpg" alt="Foto Moci 6" loading="lazy"></div><div class="caption">made of magic</div></div>
-          <div class="polaroid" style="--rot:-2deg"><div class="photo"><img src="assets/moci-7.jpg" alt="Foto Moci 7" loading="lazy"></div><div class="caption">my lovely girl</div></div>
-          <div class="polaroid" style="--rot:1.5deg"><div class="photo"><img src="assets/moci-8.jpg" alt="Foto Moci 8" loading="lazy"></div><div class="caption">always charming</div></div>
-          <div class="polaroid" style="--rot:-1deg"><div class="photo"><img src="assets/moci-9.jpg" alt="Foto Moci 9" loading="lazy"></div><div class="caption">tiny happy things</div></div>
-          <div class="polaroid" style="--rot:2deg"><div class="photo"><img src="assets/moci-10.jpg" alt="Foto Moci 10" loading="lazy"></div><div class="caption">cutie on the move</div></div>
-          <div class="polaroid" style="--rot:-1.5deg"><div class="photo"><img src="assets/moci-11.jpg" alt="Foto Moci 11" loading="lazy"></div><div class="caption">a day to remember</div></div>
-          <div class="polaroid" style="--rot:1deg"><div class="photo"><img src="assets/moci-12.jpg" alt="Foto Moci 12" loading="lazy"></div><div class="caption">simply you</div></div>
-          <div class="polaroid" style="--rot:-2deg"><div class="photo"><img src="assets/moci-13.jpg" alt="Foto Moci 13" loading="lazy"></div><div class="caption">beautiful soul</div></div>
-          <div class="polaroid" style="--rot:1.5deg"><div class="photo"><img src="assets/moci-14.jpg" alt="Foto Moci 14" loading="lazy"></div><div class="caption">soft little moments</div></div>
-          <div class="polaroid" style="--rot:-1deg"><div class="photo"><img src="assets/moci-15.jpg" alt="Foto Moci 15" loading="lazy"></div><div class="caption">adventure buddy</div></div>
-          <div class="polaroid" style="--rot:2deg"><div class="photo"><img src="assets/moci-16.jpg" alt="Foto Moci 16" loading="lazy"></div><div class="caption">my happy place</div></div>
-          <div class="polaroid" style="--rot:-1.5deg"><div class="photo"><img src="assets/moci-17.jpg" alt="Foto Moci 17" loading="lazy"></div><div class="caption">the sweetest chaos</div></div>
+          <div class="polaroid" style="--rot:-2deg"><div class="photo"><img src="assets/moci-1.jpg" alt="Foto Moci 1" loading="lazy"></div><div class="caption">Mang Oleh siap di hap</div></div>
+          <div class="polaroid" style="--rot:1.5deg"><div class="photo"><img src="assets/moci-2.jpg" alt="Foto Moci 2" loading="lazy"></div><div class="caption">Trip solo uhuy</div></div>
+          <div class="polaroid" style="--rot:-1deg"><div class="photo"><img src="assets/moci-3.jpg" alt="Foto Moci 3" loading="lazy"></div><div class="caption">Aku emang bantal unyol</div></div>
+          <div class="polaroid" style="--rot:2deg"><div class="photo"><img src="assets/moci-4.jpg" alt="Foto Moci 4" loading="lazy"></div><div class="caption">Jagain bocil asik sendiri</div></div>
+          <div class="polaroid" style="--rot:-1.5deg"><div class="photo"><img src="assets/moci-5.jpg" alt="Foto Moci 5" loading="lazy"></div><div class="caption">Si gamau di foto</div></div>
+          <div class="polaroid" style="--rot:1deg"><div class="photo"><img src="assets/moci-6.jpg" alt="Foto Moci 6" loading="lazy"></div><div class="caption">Cantiknyaaa</div></div>
+          <div class="polaroid" style="--rot:-2deg"><div class="photo"><img src="assets/moci-7.jpg" alt="Foto Moci 7" loading="lazy"></div><div class="caption">Panah asmara...</div></div>
+          <div class="polaroid" style="--rot:1.5deg"><div class="photo"><img src="assets/moci-8.jpg" alt="Foto Moci 8" loading="lazy"></div><div class="caption">My fav body goals GF</div></div>
+          <div class="polaroid" style="--rot:-1deg"><div class="photo"><img src="assets/moci-9.jpg" alt="Foto Moci 9" loading="lazy"></div><div class="caption">We Made It sayang</div></div>
+          <div class="polaroid" style="--rot:2deg"><div class="photo"><img src="assets/moci-10.jpg" alt="Foto Moci 10" loading="lazy"></div><div class="caption">Vespa matcha</div></div>
+          <div class="polaroid" style="--rot:-1.5deg"><div class="photo"><img src="assets/moci-11.jpg" alt="Foto Moci 11" loading="lazy"></div><div class="caption">Si Skena cantik</div></div>
+          <div class="polaroid" style="--rot:1deg"><div class="photo"><img src="assets/moci-12.jpg" alt="Foto Moci 12" loading="lazy"></div><div class="caption">Mamammm</div></div>
+          <div class="polaroid" style="--rot:-2deg"><div class="photo"><img src="assets/moci-13.jpg" alt="Foto Moci 13" loading="lazy"></div><div class="caption">JJL bersama SEKU</div></div>
+          <div class="polaroid" style="--rot:1.5deg"><div class="photo"><img src="assets/moci-14.jpg" alt="Foto Moci 14" loading="lazy"></div><div class="caption">Lutoooooo</div></div>
+          <div class="polaroid" style="--rot:-1deg"><div class="photo"><img src="assets/moci-15.jpg" alt="Foto Moci 15" loading="lazy"></div><div class="caption">Palangka Trippp</div></div>
+          <div class="polaroid" style="--rot:2deg"><div class="photo"><img src="assets/moci-16.jpg" alt="Foto Moci 16" loading="lazy"></div><div class="caption">Ini cantik parah sihhh</div></div>
+          <div class="polaroid" style="--rot:-1.5deg"><div class="photo"><img src="assets/moci-17.jpg" alt="Foto Moci 17" loading="lazy"></div><div class="caption">Cantiknyooo</div></div>
           <div class="polaroid" style="--rot:1deg"><div class="photo"><img src="assets/moci-18.jpg" alt="Foto Moci 18" loading="lazy"></div><div class="caption">forever lovely</div></div>
-          <div class="polaroid" style="--rot:-2deg"><div class="photo"><img src="assets/moci-19.jpg" alt="Foto Moci 19" loading="lazy"></div><div class="caption">and still my favorite</div></div>
+          <div class="polaroid" style="--rot:-2deg"><div class="photo"><img src="assets/moci-19.jpg" alt="Foto Moci 19" loading="lazy"></div><div class="caption">MY only lover cantul</div></div>
         </div>
       </div>
     </section>
@@ -74,10 +74,10 @@
         <div class="section-head"><div class="eyebrow">a letter for you</div><h2>Dear, my Moci ♡</h2><p>Warning: contains an unreasonable amount of affection.</p></div>
         <article class="letter-card">
           <div class="letter-top">Untuk sayangnya aku,</div>
-          <p>Selamat ulang tahun buat sayangnya aku yang ke-28 tahun! Semoga di usia yang semakin mantap ini, kamu juga akan semakin mantap buat melangkah ke depan dan mengejar semua cita-cita yang masih ada di dalam otak kamu. Satu per satu, ya. Jangan semuanya dikejar sekaligus, nanti capek. 😁</p>
-          <p>Sehat dan sakit itu rahasia Allah, tapi yang aku mau, kamu selalu sehat dan bahagia. Manusia biasa ini—yang cenderung bulat daripada rata, cenderung menyebalkan dibanding menyenangkan—selalu mendoakan kamu, si manusia cantik yang penuh talenta, elegan, pintar, charming, baik hati, pengertian, super peka, kuat, pemberani, kreatif, brilliant, humble, lucu, independent, mindful, well-spoken, wise, dan warm.</p>
+          <p>Selamat ulang tahun buat sayangnya aku yang ke-28 tahun! Semoga di usia yang semakin matang ini, kamu juga akan semakin mantap buat melangkah ke depan dan mengejar semua cita-cita yang masih ada di dalam otak kamu. Satu per satu, ya. Jangan semuanya dikejar sekaligus, nanti capek. 😁</p>
+          <p>Sehat dan sakit itu rahasia Allah, tapi semoga kamu selalu sehat dan bahagia. Manusia biasa ini—yang cenderung bulat daripada rata, cenderung menyebalkan dibanding menyenangkan—selalu mendoakan kamu, si manusia cantik yang penuh talenta, elegan, pintar, charming, baik hati, pengertian, super peka, kuat, pemberani, kreatif, brilliant, humble, lucu, independent, mindful, well-spoken, wise, dan warm.</p>
           <p>Semoga kamu tetap bahagia, harapan-harapanmu tercapai, wish list-mu satu per satu terceklis, dan kota atau negara yang ingin kamu tuju bisa segera kamu pijak. Semoga banyak hal baik datang menghampiri kamu, semoga langkahmu selalu dimudahkan, dan semoga kamu tidak pernah kehabisan alasan untuk tersenyum.</p>
-          <p>Terakhir, semoga kamu selalu sayang aku. Ini bukan doa yang bisa ditawar, tapi boleh didiskusikan sambil makan kue. 😁</p>
+          <p>Terakhir, semoga kamu selalu sayang aku. Ini bukan doa yang bisa ditawar, tapi boleh didiskusiin sambil minum kopi. 😁</p>
           <p class="sign">With all my love,<br>si manusia cenderung bulat ♡</p>
         </article>
       </div>
@@ -92,7 +92,7 @@
             <strong>Birthday</strong><p>Katy Perry · Official Music Video</p>
             <div class="music-controls">
               <button class="btn" id="playBtn" type="button">▶ Play on YouTube</button>
-              <a class="btn outline" href="https://www.youtube.com/watch?v=CEUg7OplvIQ" target="_blank" rel="noopener">Open YouTube ↗</a>
+              <a class="btn outline"href="https://www.youtube.com/watch?v=jqYxyd1iSNk"target="_blank"rel="noopener"> Open YouTube ↗</a>
             </div>
             <div class="small-note">Musik dibuka melalui YouTube agar pemutaran dan hak cipta tetap ditangani oleh platform resminya.</div>
           </div>
@@ -127,7 +127,7 @@
     const playBtn = document.getElementById('playBtn');
     const record = document.getElementById('record');
     playBtn.addEventListener('click', () => {
-      window.open('https://www.youtube.com/watch?v=CEUg7OplvIQ', '_blank', 'noopener');
+      window.open('https://www.youtube.com/watch?v=jqYxyd1iSNk&list=RDjqYxyd1iSNk&start_radio=1', '_blank', 'noopener');
       record.classList.add('playing');
       playBtn.textContent = '♫ YouTube is opening';
     });
